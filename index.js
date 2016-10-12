@@ -4,4 +4,4 @@
  */
 global.TYPED_ARRAY_SUPPORT = true;
 
-require('buffer');
+module.exports = require('buffer');
